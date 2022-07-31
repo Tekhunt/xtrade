@@ -41,10 +41,10 @@ export const HeroWrapper = styled.div`
   flex-direction: column;
   position: relative;
 
-  .colored-blue {
+  .blue {
     color: blue;
   }
-  .colored-orange {
+  .orange {
     color: orange;
   }
 
@@ -142,9 +142,6 @@ export const HeroWrapper = styled.div`
   }
 
   @media (max-width: 1024px) {
-    /* .colored {
-      font-size: 32px;
-    } */
     .action p {
       font-size: 14px;
     }
@@ -161,12 +158,9 @@ export const HeroWrapper = styled.div`
     }
 
     .colored {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-weight: 400;
+
       font-size: 32px;
-      line-height: 40px;
+
     }
 
     .action {
@@ -253,7 +247,7 @@ export const NumberWrapper = styled.div`
     row-gap: 20px;
 
     div {
-      max-width: 154px;
+      width: 154px;
     }
 
     h1 {
@@ -289,7 +283,8 @@ export const Body = () => {
       <HeroWrapper>
         <div>
           <div className="colored">
-            Access Fast Finance and Easy Shipping Around The World
+            Access <span className="blue">Fast Finance</span> and{" "}
+            <span className="orange">Easy Shipping</span> Around The World
           </div>
         </div>
         <p className="offer">
