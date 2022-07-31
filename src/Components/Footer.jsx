@@ -11,6 +11,8 @@ export const FooterWrapper = styled.div`
   justify-content: center;
   margin: 0 auto;
   padding-top: 172px;
+  overflow: hidden;
+
 
   .none {
     visibility: hidden;

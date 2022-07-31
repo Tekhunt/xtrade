@@ -15,6 +15,8 @@ export const BodyWrapper = styled.div`
   justify-content: center;
   margin: 0 auto;
   padding: 150px 14px 86px 14px;
+  overflow: hidden;
+
 
   .trust {
     width: 260px;

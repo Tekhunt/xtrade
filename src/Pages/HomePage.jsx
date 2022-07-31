@@ -7,12 +7,15 @@ import bg from "../backgroundImg.svg";
 
 export const FooterContainer = styled.div`
   background: #dafcff;
+  overflow-x: hidden;
+
 `;
 export const HomeContainer = styled.div`
   overflow: hidden;
   background-image: url(${bg});
   background-repeat: no-repeat;
   background-position: top right;
+  overflow-x: hidden;
 
   .headbody {
     background: #fffaf0;

@@ -22,12 +22,13 @@ export const HeaderWrapper = styled.div`
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(20px);
+  overflow: hidden;
 
   .hamburger {
     display: none;
   }
   @media (max-width: 1024px) {
-  padding: 21px 22px;
+    padding: 21px 22px;
 
     .hamburger {
       display: inline;
