@@ -8,7 +8,6 @@ import bg from "../backgroundImg.svg";
 export const FooterContainer = styled.div`
   background: #dafcff;
   overflow-x: hidden;
-
 `;
 export const HomeContainer = styled.div`
   overflow: hidden;
@@ -27,6 +26,7 @@ export const HomeContainer = styled.div`
   @media (max-width: 1024px) {
     .headbody {
       padding-top: 0;
+      margin-bottom: 105px;
     }
   }
 `;
